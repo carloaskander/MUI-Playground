@@ -109,6 +109,12 @@ function Main() {
 
         </Grid>
       </Container>
+
+
+      <Container className='avatar-section'>
+        <Typography variant="h3" gutterBottom style={{ fontSize: '2rem' }}>Avatars</Typography>
+
+      </Container>
     </main>
   );
 }
