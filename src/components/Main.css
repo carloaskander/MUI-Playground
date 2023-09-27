@@ -1,0 +1,11 @@
+.main {
+    width: 100%;
+}
+
+.main h1 {
+    margin: 2rem 0rem;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #75d64f;
+}

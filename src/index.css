@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+body, #root {
+  min-height: 100vh;
+}
+
+/* Center the APP */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  background-color: #1e1e1e;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to your centered app */}
